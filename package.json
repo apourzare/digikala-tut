@@ -1,0 +1,12 @@
+{
+  "name": "digikala-mojtaba",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch ./src/scss/input.scss ./dist/assets/css/style.css --no-source-map"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
