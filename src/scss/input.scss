@@ -1,88 +1,128 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+@import "font-face";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+// * {
+//     padding: 0;
+//     margin: 0;
+//     box-sizing: border-box;
+//     font-family: "Vazirmatn", sans-serif;
+// }
 
-.w-full {
-    width: 100%;
-}
+// @import "components/button";
 
-// Header Section
+// a {
+//     text-decoration: none;
+// }
+
+// .w-full {
+//     width: 100%;
+// }
+
+// // Header Section
+// header {
+//     & .banner {
+//         height: 60px;
+//         background-color: #E74D2E;
+//         & img {
+//             width: 100%;
+//         }
+//     }
+
+//     & .header-tools {
+//         height: 68px;
+//         display: flex;
+//         align-items: center;
+//         padding: 0 16px;
+//         max-width: 1767px;
+//         margin: 0 auto;
 header {
-    & .banner {
-        height: 60px;
-        background-color: #E74D2E;
-        & img {
-            width: 100%;
-        }
-    }
-
     & .header-tools {
         height: 68px;
-        display: flex;
-        align-items: center;
-        padding: 0 16px;
-
-
-        & .right {
-            height: 100%;
-            gap: 16px;
-            flex: 1;
-            display: flex;
-            align-items: center;
-            & .search {
-                width: 50%;
-                &-form {
-                    width: 100%;
-                   background-color: #e6e6e6; 
-                   padding: 8px 16px;
-                   border-radius: 8px;
-                   border: 1px solid #bababa;
-                   & > * {
-                    background-color: transparent;
-                    border: none;
-                    outline: none;
-                   }
-                }
-            }
-        }
-
-        & .left {
-            height: 100%;
-            background-color: green;
-            width: 200px;
-        }
-    }
-
-    & nav.navigation {
-        height: 40px;
-        // border-bottom: 1px solid #e6e6e6;
-        border-top: 1px solid #E74D2E;
-        box-shadow: 0 2px 2px rgba(179, 179, 179, 0.7);
+        max-width: 1767px;
     }
 }
-// End Header Section
+//         & .right {
+//             height: 100%;
+//             gap: 20px;
+//             flex: 1;
+//             display: flex;
+//             align-items: center;
+//             & .search {
+//                 // width: 50%;
+//                 &-form {
+//                     width: 600px;
+//                     height: 44px;
+//                    background-color: #f0f0f1; 
+//                    padding: 0 16px;
+//                    border-radius: 8px;
+//                    display: flex;
+//                    gap: 8px;
+//                    align-items: center;
+                   
+//                    & > * {
+//                     background-color: transparent;
+//                     border: none;
+//                     outline: none;
+//                    }
+
+//                    & > input[type=search] {
+//                     font-size: 16px;
+//                     width: 100%;
+//                     color: #81858b;
+//                    }
+
+//                    & i {
+//                     color: #81858b
+//                    }
+//                 }
+//             }
+//         }
+
+//         & .left {
+//             height: 100%;
+//             width: 200px;
+//             display: flex;
+//             gap:8px;
+//             align-items: center;
+
+//             & a {
+//               display: flex;
+//               align-items: center;  
+//               & span {
+//                 display: flex;
+//                 align-items: center;
+//               }
+//             }
+//         }
+//     }
+
+//     & nav.navigation {
+//         height: 40px;
+//         // border-bottom: 1px solid #e6e6e6;
+//         border-top: 1px solid #E74D2E;
+//         box-shadow: 0 2px 2px rgba(179, 179, 179, 0.7);
+//     }
+// }
+// // End Header Section
 
 
-// Main
-main {
-    & .story {
-        height: 155.72px;
-    }
+// // Main
+// main {
+//     & .story {
+//         height: 155.72px;
+//     }
 
-    & .carousel {
-        height: 400px;
-        background-color: #e6e6e6;
-    }
+//     & .carousel {
+//         height: 400px;
+//         background-color: #e6e6e6;
+//     }
 
-    & .services {
-        height: 95.86px;
-    }
+//     & .services {
+//         height: 95.86px;
+//     }
 
-    & .perfect-sujest {
-        height: 300px;
-        background-color: #EF3B50;
-    }
-}
-// End Main
+//     & .perfect-sujest {
+//         height: 300px;
+//         background-color: #EF3B50;
+//     }
+// }
+// // End Main
